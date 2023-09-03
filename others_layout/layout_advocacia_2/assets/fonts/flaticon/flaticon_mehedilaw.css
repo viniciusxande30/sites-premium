@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "flaticon_mehedilaw";
+    src: url("./flaticon_mehedilaw.ttf?fcc991049ff1e00aef016d03ae936f28") format("truetype"),
+url("./flaticon_mehedilaw.woff?fcc991049ff1e00aef016d03ae936f28") format("woff"),
+url("./flaticon_mehedilaw.woff2?fcc991049ff1e00aef016d03ae936f28") format("woff2"),
+url("./flaticon_mehedilaw.eot?fcc991049ff1e00aef016d03ae936f28#iefix") format("embedded-opentype"),
+url("./flaticon_mehedilaw.svg?fcc991049ff1e00aef016d03ae936f28#flaticon_mehedilaw") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mehedilaw !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-legal:before {
+    content: "\f101";
+}
+.flaticon-certificate:before {
+    content: "\f102";
+}
+.flaticon-financial:before {
+    content: "\f103";
+}
+.flaticon-flight:before {
+    content: "\f104";
+}
+.flaticon-bandage:before {
+    content: "\f105";
+}
+.flaticon-jury:before {
+    content: "\f106";
+}
+.flaticon-auction:before {
+    content: "\f107";
+}
+.flaticon-badge:before {
+    content: "\f108";
+}
+.flaticon-criminal:before {
+    content: "\f109";
+}
+.flaticon-settings:before {
+    content: "\f10a";
+}
+.flaticon-writing:before {
+    content: "\f10b";
+}
+.flaticon-quote:before {
+    content: "\f10c";
+}

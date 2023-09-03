@@ -1,0 +1,490 @@
+/* fix about-section bottom spaces */
+@media (max-width: 1399px) {
+  .about-section {
+    padding-bottom: 140px;
+  }
+}
+/*For bigger screen then normal 1500px desktop*/
+@media (min-width: 1280px) and (max-width: 1700px) {
+  .hero-sec-home2 .section-overlay .hero-img {
+    width: 54%;
+    right: 0;
+  }
+  .attorney-slider {
+    margin-top: 33px;
+  }
+  .attorney-slider .single-attorney {
+    margin-bottom: 24px;
+  }
+}
+
+/*For bigger screen then normal 960px desktop*/
+@media only screen and (max-width: 1280px) {
+  .hero-content .hero-title {
+    font-size: 74px;
+    line-height: 86px;
+  }
+  .hero-content .hero-site-info {
+    width: 90%;
+  }
+  .hero-sec-home2 .section-overlay .hero-img {
+    width: 54%;
+    right: 0;
+  }
+  .hero-sec-home2 .hero-content .hero-site-info {
+    width: 100%;
+  }
+  ul.hero-site-info li.hero-single-site-info h3 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .history-tab-details .history-tab-content {
+    padding: 80px 80px 80px 50px;
+  }
+  .history-tab-details .history-tab-content a {
+    margin-top: 36px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-section .sec-content {
+    margin-top: 152px;
+  }
+  .location-map {
+    margin-right: 0;
+  }
+  .contact-section .contact-form-with-map {
+    margin-top: 70px;
+  }
+}
+/*For Tablet Layout*/
+@media (max-width: 991px) {
+  .pb-100 {
+    padding-bottom: 60px;
+  }
+  .pt-100 {
+    padding-top: 60px;
+  }
+  .ptb-140 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .pb-140 {
+    padding-bottom: 100px;
+  }
+  .pt-140 {
+    padding-top: 100px;
+  }
+  .pt-240 {
+    padding-top: 200px;
+  }
+  .sec-content {
+    text-align: center;
+  }
+  .sec-title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .hero-content {
+    text-align: center;
+    margin: 0 0 64px;
+  }
+  .hero-content .hero-title {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .hero-content .hero-site-info {
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-img img {
+    width: 100%;
+  }
+  .attorney-feature-info .hero-single-feature {
+    margin-bottom: 24px;
+  }
+  .about-section .sec-content {
+    margin-top: 106px;
+  }
+  .history-tab-details .history-tab-content {
+    padding: 70px;
+  }
+  .history-tab-details .history-tab-content a {
+    margin-top: 30px;
+  }
+  .history-tab-details .history-tab-content h3 {
+    font-size: 40px;
+  }
+  .history-call {
+    padding-top: 220px;
+  }
+  .single-attorney {
+    margin-bottom: 40px;
+  }
+  .single-case-info {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .case-slider .single-case-info {
+    margin-bottom: 0;
+  }
+  .testimonial-slider .owl-dots {
+    margin-top: 20px;
+  }
+  .contact-section .sec-content h3.sec-title {
+    margin-top: 0;
+  }
+  .contact-section .sec-content ul.law-contact {
+    margin-top: 16px;
+  }
+  .contact-section .law-cform {
+    margin-top: 64px;
+  }
+  .footer-copyright {
+    text-align: center;
+    padding: 30px 0 42px;
+  }
+  .footer-copyright .footer-copyright-links {
+    float: inherit;
+    margin-top: 12px;
+  }
+  /* home page 2 */
+  .hero-sec-home2 .section-overlay .hero-img {
+    position: inherit;
+    width: 100%;
+  }
+  .success-sec .sccess-info h4 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .single-plan {
+    text-align: center;
+  }
+  .attorney-slider {
+    -webkit-transform: inherit;
+    transform: inherit;
+    margin-top: 0;
+  }
+  .attorney-slider .single-attorney {
+    margin-bottom: 0;
+  }
+  .contact-section .contact-form-with-map form.law-cform {
+    margin-top: 0;
+  }
+  .contact-section .contact-form-with-map {
+    margin-top: 50px;
+  }
+  .contact-section-home2 .contact-form-with-map h3.sec-title {
+    text-align: center;
+  }
+
+  /* inner page */
+  .page-title-area .page-title-wrappper {
+    margin: 200px 0 100px;
+  }
+  .page-title-wrappper h2.page-title {
+    font-size: 70px;
+    line-height: 78px;
+  }
+  .about-page.about-section .about-sec-media .media-item {
+    display: block !important;
+  }
+  .attorneys-page.attorney-section {
+    padding-bottom: 60px;
+  }
+  .practice-page {
+    padding-bottom: 60px;
+  }
+  .case-support-info {
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+  .case-support-info .support-info-overlay {
+    text-align: center;
+  }
+  .case-support-info .support-info-overlay h4 {
+    margin: 38px 0 12px;
+  }
+  .faq-page.contact-section .law-cform {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  .case-studies-page {
+    padding-bottom: 60px;
+  }
+  .case-studies-page .single-case-info {
+    margin-bottom: 40px;
+  }
+  .blog-page .blog-item {
+    margin-bottom: 40px;
+  }
+  .blog-sidebar-wrapper {
+    margin-top: 100px;
+  }
+  .blog-page-style2 .blog-pagination {
+    margin-top: 10px;
+  }
+  .wow {
+    animation-name: none !important;
+    visibility: visible !important;
+  }
+}
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+  .pb-100 {
+    padding-bottom: 40px;
+  }
+  .pt-100 {
+    padding-top: 40px;
+  }
+
+  .ptb-140 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .pb-140 {
+    padding-bottom: 80px;
+  }
+  .pt-140 {
+    padding-top: 80px;
+  }
+  .pt-240 {
+    padding-top: 180px;
+  }
+  #header-sticky {
+    padding: 0 16px;
+  }
+  .sec-title {
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .hero-content {
+    margin: 0 0 44px;
+  }
+
+  .hero-content .hero-title {
+    font-size: 48px;
+    line-height: 56px;
+    margin: 16px 0 20px;
+  }
+  .hero-content a {
+    margin: 16px 0 44px 0px;
+  }
+
+  .hero-content .hero-site-info {
+    width: 100%;
+  }
+  ul.hero-site-info li.hero-single-site-info h3 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  ul.hero-site-info li.site-info1 {
+    padding-right: 36px;
+  }
+  ul.hero-site-info li.site-info2 {
+    padding-left: 36px;
+  }
+  .about-section .sec-content {
+    margin-top: 80px;
+  }
+  .history-tab-details .history-tab-content {
+    padding: 50px;
+  }
+  .history-tab-details .history-tab-content a {
+    margin-top: 16px;
+  }
+  .ingle-case-content {
+    text-align: center;
+  }
+  .history-tab-details .history-tab-content h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 24px;
+  }
+  .testimonial-slider {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  .single-testimonial {
+    text-align: center;
+  }
+  .form-style-2 {
+    padding: 28px;
+  }
+  form.law-cform .contact-field input,
+  form.law-cform .contact-field textarea {
+    padding: 10px 24px;
+  }
+
+  /* Subscribe button css */
+  .site-sub form {
+    position: relative;
+  }
+  .newsletter form {
+    display: inherit;
+  }
+  .site-sub form i {
+    left: 26px;
+    top: 27px;
+    font-size: 20px;
+  }
+  .site-sub form input {
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 52px;
+  }
+  .site-sub form button {
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 32px;
+  }
+  .case-slider .owl-nav {
+    display: none;
+  }
+  .case-slider .owl-dots {
+    display: block;
+  }
+  /* home page 2 */
+  .success-sec .sccess-info h4 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  form.law-cform button.mt-btn-form {
+    width: 100%;
+  }
+
+  /* inner page */
+  .page-title-area .page-title-wrappper {
+    margin: 180px 0 80px;
+  }
+  .page-title-wrappper h2.page-title {
+    font-size: 50px;
+    line-height: 58px;
+  }
+  .attorneys-page.attorney-section {
+    padding-bottom: 40px;
+  }
+  .attorney-short-bio .attorney-title {
+    padding: 38px 28px 0px;
+  }
+  .attorney-short-bio .attorney-bio-info {
+    padding: 0px 28px;
+  }
+  .attorney-short-bio .social-icon {
+    padding: 0px 28px 46px;
+  }
+  .practice-page {
+    padding-bottom: 40px;
+  }
+  .brife-bio-sec hr {
+    margin: 44px 0;
+  }
+  .attorney-short-bio {
+    margin-bottom: 32px !important;
+  }
+  .attorney-brife-bio .brife-bio-sec h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+  .attorney-brife-bio .brife-bio-sec {
+    margin-bottom: 32px;
+  }
+  .cases-brife-info .case-img {
+    margin-bottom: 48px;
+  }
+  .case-studies-page {
+    padding-bottom: 40px;
+  }
+  .case-support-info {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  .blog-sidebar-wrapper {
+    margin-top: 80px;
+  }
+  .blog-details-thumb {
+    margin-bottom: 40px;
+  }
+  .blog-details-wrapper .blog-comments {
+    margin-top: 60px;
+  }
+  .blog-details-wrapper .autor-info-box {
+    text-align: center;
+  }
+  .blog-details-wrapper .autor-info-box .autor-avatar {
+    margin-right: 0;
+    margin-bottom: 28px;
+  }
+  .blog-details-wrapper .blog-comment-form {
+    margin-top: 20px;
+  }
+  .blog-details-wrapper .comments-avatar img {
+    width: 200px;
+  }
+}
+
+/*For 320-384px up Mobile Layout*/
+
+@media (max-width: 479px) {
+  .hero-sec-home2
+    .hero-content
+    .hero-site-info
+    .hero-single-site-info
+    .site-rating-img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .history-tab-details .history-tab-content {
+    padding: 40px;
+  }
+  .history-tab-details .history-tab-content h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .hero-content .mt-btn-white {
+    margin-left: 0 !important;
+    margin-top: 0;
+  }
+  .success-sec .sccess-info h4 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .history-tab-details .history-tab-content a {
+    margin-top: 14px;
+  }
+  .about-section .sec-content {
+    margin-top: 60px;
+  }
+  .achivement-logos img {
+    margin-right: 8px;
+  }
+  .location-map iframe {
+    height: 300px;
+  }
+  .blog-style2 {
+    padding: 50px 30px;
+  }
+  .footer-copyright .footer-copyright-links {
+    margin-top: 8px;
+  }
+  .footer-copyright-links a {
+    margin-right: 12px;
+    font-size: 14px;
+  }
+  .footer-widget .footer-widget-content p.ft-text {
+    margin-right: 0;
+  }
+  .case-support-info .support-info-overlay h4 {
+    margin: 24px 0 12px;
+  }
+  .contact-map-section .contact-map-location iframe {
+    height: 300px;
+  }
+}
