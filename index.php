@@ -368,13 +368,6 @@
 		
 		var text  = `Olá <?= SITE_NAME ?>, me chamo *${name}* fazer uma cotação de site profissional!%0A%0A`;
 			text += `*Meu WhatsApp:* ${whatsapp}%0A`;
-			text += `*Origem:* ${origin}%0A`;
-			text += `*Destino:* ${destination}`;
-			
-			
-		if (note_cost !== '') text += `%0A*Valor de nota:* ${note_cost}`;
-		if (quantity !== '') text += `%0A*Quantidade:* ${quantity}`;
-		if (weight !== '') text += `%0A*Peso:* ${weight}`;
 		
 		$.get('whatsapp-quotations.php', {name:'', text});
 		
