@@ -652,7 +652,7 @@ img {
   width: 100%;
   top: 0;
   left: 0;
-  background: var(--primary-bg-color-2);
+  background:linear-gradient(-47deg, black 0%, #013d62 100%);;
   opacity: 0.94;
   z-index: -1;
 }
