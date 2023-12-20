@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Doutor Nelson Tanuma - Usucapião</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <meta name="description" content="Qondri HTML Template For Londri" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
+    <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="assets/vendors/qondri-icons/style.css">
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bxslider/jquery.bxslider.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/css/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/vegas/vegas.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/qondri.css" />
+    <link rel="stylesheet" href="assets/css/qondri-responsive.css" />
+</head>
+
+<body>
+
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        
+        .btn-whatsapp {
+            width: 225px;
+            position: fixed;
+            right: 15px;
+            bottom: 80px;
+            z-index: 99999;
+        }
+        .main-header.stricky {
+            opacity: 0.8 !important;
+        }
+        </style>
+
+    <div class="preloader">
+        <img class="preloader__image" width="60" src="assets/images/loader.png" alt="" />
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header clearfix">
+            <div class="main-header__top">
+                <div class="main-header__top-inner">
+                    <div class="main-header__top-left">
+                        <ul class="list-unstyled main-header__top-address">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-email"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="mailto:needhelp@company.com">comercial@nelsontanuma.com.br</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-pin"></span>
+                                </div>
+                                <div class="text">
+                                    <p>São Paulo - SP</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main-header__top-right">
+                        <div class="main-header__top-social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="main-menu clearfix">
+                <div class="main-menu-wrapper clearfix">
+                    <div class="main-menu-wrapper__left">
+                        <div class="main-menu-wrapper__logo">
+                            <a href="{{url('/')}}">Dr.Nelson Tanuma</a>
+                        </div>
+                        <div class="main-menu-wrapper__btn-box">
+                            <a href="#fale-conosco" class="thm-btn main-menu-wrapper__btn">Entre em contato conosco <span
+                                    class="icon-right-arrow"></span></a>
+                        </div>
+                    </div>
+                    <div class="main-menu-wrapper__right">
+                        <div class="main-menu-wrapper__main-menu">
+                            <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                            <ul class="main-menu__list">
+                                <li class="dropdown current">
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li><a href="#sobre-nos">Sobre nós</a></li>
+                                <li><a href="#nossos-servicos">Nossos serviços</a></li>
+                                <li><a href="#fale-conosco">Fale conosco</a></li>
+                            </ul>
+                        </div>
+                        <div class="main-menu-wrapper__search-call">
+                           
+                            <div class="main-menu-wrapper__call">
+                                <div class="main-menu-wrapper__call-icon">
+                                    <span class="icon-phone-call"></span>
+                                </div>
+                                <div class="main-menu-wrapper__call-number">
+                                    <p>Nosso Telefone</p>
+                                    <h5><a href="tel:5511984792689">+55 11 98479-2689</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <a href="#" target="_blank" class="btn-whatsapp">
+            <img src="https://cybertecontroledepragas.com.br/wp-content/uploads/2020/09/bot%C3%A3o-whatsapp-do-prime-gourmet.png" class="btn-whatsapp" title="Suporte Via WhatsApp" alt="Cotação Rápida por WhatsApp">
+            </a>
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+        <!--Main Slider Start-->
+        <section class="main-slider">
+            <div class="main-slider-ripped-paper">
+            </div>
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+                "effect": "fade",
+                "pagination": {
+                "el": "#main-slider-pagination",
+                "type": "bullets",
+                "clickable": true
+                },
+                "navigation": {
+                "nextEl": "#main-slider__swiper-button-next",
+                "prevEl": "#main-slider__swiper-button-prev"
+                },
+                "autoplay": {
+                "delay": 5000
+                }}'>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/backgrounds/main-slider-1-1.jpg);">
+                        </div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-7">
+                                    <div class="main-slider__content">
+                                        <p>Entre em Contato com um Especialista</p>
+                                        <h2>Especialistas no<br> Usucapião <br> </h2>
+                                        <a href="#fale-conosco" class="thm-btn">Entre em Contato <span
+                                                class="icon-right-arrow"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(assets/images/backgrounds/main-slider-1-2.jpg);">
+                        </div>
+                        <!-- /.image-layer -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-7">
+                                    <div class="main-slider__content">
+                                        <p>Saiba mais sobre o Usucapião</p>
+                                        <h2>Visite <span>Nosso</span> <br> Escritório</h2>
+                                        <a href="#sobre-nos" class="thm-btn">Saiba Quem Somos <span
+                                                class="icon-right-arrow"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-pagination" id="main-slider-pagination"></div>
+                <div class="main-slider__nav">
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+                        <i class="fa fa-angle-right angle-left"></i>
+                    </div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+                        <i class="fa fa-angle-right"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--Main Slider End-->
+
+        <!--Feature One Start-->
+        <section class="feature-one">
+            <div class="feature-one__container">
+                <div class="feature-one__inner">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                            <!--Feature One Single-->
+                            <div class="feature-one__single">
+                                <div class="feature-one__icon">
+                                    <span class="icon-time"></span>
+                                </div>
+                                <div class="feature-one__content">
+                                    <h3 class="feature-one__title">
+                                        <a href="#fale-conosco">Assessoria Jurídica Completa</a>
+                                    </h3>
+                                    <p class="feature-one__text">Nossa equipe oferece orientação detalhada desde a análise inicial até a conclusão bem-sucedida do processo de Usucapião.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                            <!--Feature One Single-->
+                            <div class="feature-one__single feature-one__single-base">
+                                <div class="feature-one__icon">
+                                    <span class="icon-mobile-payment"></span>
+                                </div>
+                                <div class="feature-one__content">
+                                    <h3 class="feature-one__title">
+                                        <a href="#fale-conosco">Acompanhamento Processual</a>
+                                    </h3>
+                                    <p class="feature-one__text">Mantenha-se informado sobre o andamento do seu caso. Fornecemos atualizações regulares e estamos sempre disponíveis para esclarecer dúvidas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                            <!--Feature One Single-->
+                            <div class="feature-one__single feature-one__single-black">
+                                <div class="feature-one__icon">
+                                    <span class="icon-satisfaction"></span>
+                                </div>
+                                <div class="feature-one__content">
+                                    <h3 class="feature-one__title">
+                                        <a href="#fale-conosco">Representação Judicial</a>
+                                    </h3>
+                                    <p class="feature-one__text">Conte com nossa expertise na representação eficaz de seus interesses nos tribunais, garantindo a defesa assertiva de seus direitos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Feature One End-->
+
+        <!--Welcome One Start-->
+        <section class="welcome-one" id="sobre-nos">
+            <div class="welcome-one-foam-shape"
+                style="background-image: url(assets/images/shapes/welcome-one-foam-shape.png);"></div>
+            <div class="welcome-one-shape-1 float-bob-y"><img src="assets/images/shapes/welcome-ond-shape-1.png" alt="">
+            </div>
+            <div class="welcome-one-shape-2"><img src="assets/images/shapes/welcome-ond-shape-2.png" alt=""></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="welcome-one__left">
+                            <div class="welcome-one__img-box wow slideInLeft" data-wow-delay="100ms"
+                                data-wow-duration="2500ms">
+                                <div class="welcome-one__img">
+                                    <img src="assets/images/resources/welcome-one-img-1.jpg" alt="">
+                                </div>
+                                <div class="welcome-one__small-img">
+                                    <img src="assets/images/resources/welcome-one-small-img.jpg" alt="">
+                                </div>
+                                <div class="welcome-one__experience">
+                                    <h3>20</h3>
+                                    <p>Anos de<br> Experiência</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="welcome-one__right">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">Advogamos para todo o Brasil</span>
+                                <h2 class="section-title__title">Especialistas no Usucapião</h2>
+                            </div>
+                            <p class="welcome-one__text-1">Consulte nossos especialistas e venha fazer uma consultoria
+                                </p>
+                            <p class="welcome-one__text-2">Somos um escritório de advocacia especializado em direito imobiliário, com foco primordial em processos de Usucapião. Nosso compromisso é oferecer suporte jurídico sólido e orientação especializada para aqueles que buscam regularizar sua posse e propriedade.</p>
+                            <ul class="list-unstyled welcome-one__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Usucapião Judicial</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-check"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p>Usucapião Extrajudicial</p>
+                                    </div>
+                                </li>
+                               
+                            </ul>
+                            <div class="welcome-one__button-call">
+                                <a href="#fale-conosco" class="thm-btn welcome-one__btn">Contato <span
+                                        class="icon-right-arrow"></span></a>
+                                <div class="welcome-one__call">
+                                    <div class="welcome-one__call-icon">
+                                        <span class="icon-telephone"></span>
+                                    </div>
+                                    <div class="welcome-one__call-content">
+                                        <p>Contate-nos Também pelo WhatsApp</p>
+                                        <a href="tel:5511984792689">+55 11 98479-2689</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Welcome One End-->
+
+        <!--Services One Start-->
+        <section class="services-one" id="nossos-servicos">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline">Com o que mais trabalhamos?</span>
+                    <h2 class="section-title__title">Nossos Serviços</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                        <!--Services One Single-->
+                        <div class="services-one__single">
+                            <div class="services-one__img">
+                                <img src="assets/images/services/services-1-1.jpg" alt="">
+                                <div class="services-one__icon">
+                                    <span class="icon-time"></span>
+                                </div>
+                            </div>
+                            <div class="services-one__content">
+                                <h3 class="services-one__title"><a href="#fale-conosco">Usucapião Extraordinário ou Ordinário                                </a></h3>
+                                <p class="services-one__text">Requisito de posse mansa e pacífica por um período de 15 anos (Usucapião Ordinário) ou 10 anos (Usucapião Extraordinário).</p>
+                                <div class="services-one__btn-box">
+                                    <a href="#fale-conosco" class="thm-btn services-one__btn">Contato <span
+                                            class="icon-right-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                        <!--Services One Single-->
+                        <div class="services-one__single">
+                            <div class="services-one__img">
+                                <img src="assets/images/services/services-1-2.jpg" alt="">
+                                <div class="services-one__icon">
+                                    <span class="icon-time"></span>
+                                </div>
+                            </div>
+                            <div class="services-one__content">
+                                <h3 class="services-one__title"><a href="#fale-conosco">Usucapião Especial Urbano                                </a></h3>
+                                <p class="services-one__text">Possibilidade de adquirir a propriedade de um imóvel urbano de até 250m², desde que seja utilizado para moradia própria ou da família, por um período de 5 anos ininterruptos.</p>
+                                <div class="services-one__btn-box">
+                                    <a href="#fale-conosco" class="thm-btn services-one__btn">Contato <span
+                                            class="icon-right-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                        <!--Services One Single-->
+                        <div class="services-one__single">
+                            <div class="services-one__img">
+                                <img src="assets/images/services/services-1-3.jpg" alt="">
+                                <div class="services-one__icon">
+                                    <span class="icon-time"></span>
+                                </div>
+                            </div>
+                            <div class="services-one__content">
+                                <h3 class="services-one__title"><a href="#fale-conosco">Usucapião Especial Rural:                                </a></h3>
+                                <p class="services-one__text">Similar ao urbano, mas aplicável a imóveis rurais, com área de até 50 hectares, desde que explorado de forma produtiva, com posse mansa e pacífica por 5 anos.</p>
+                                <div class="services-one__btn-box">
+                                    <a href="#fale-conosco" class="thm-btn services-one__btn">Contato
+                                        <span class="icon-right-arrow"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Services One End-->
+
+ 
+
+
+
+        <!--Why Choose One Start-->
+        <section class="why-choose-one">
+            <div class="why-choose-one-shape-1 float-bob-x"><img src="assets/images/shapes/why-choose-one-shape-1.png"
+                    alt=""></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="why-choose-one__left">
+                            <div class="why-choose-one__img">
+                                <img src="assets/images/resources/why-choose-one-img-1.jpg" alt="">
+                                <div class="why-choose-one__video-link">
+                                    <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                                        <div class="why-choose-one__video-icon">
+                                            <span class="fa fa-play"></span>
+                                            <i class="ripple"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="why-choose-one__right">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">Saiba Mais</span>
+                                <h2 class="section-title__title">Benefícios de Contratar Nossos Serviços</h2>
+                            </div>
+                            <p class="why-choose-one__text">Contratar um advogado oferece orientação especializada e pode:</p>
+                            <div class="why-choose-one__content">
+                                <ul class="list-unstyled why-choose-one__points">
+                                    <li>
+                                        <div class="why-choose-one__icon">
+                                            <span class="icon-time"></span>
+                                        </div>
+                                        <h4 class="why-choose-one__title">Proteger Seus Direitos</h4>
+                                        <p class="why-choose-one__text-2">Garanta que seus direitos sejam defendidos adequadamente.</p>
+                                    </li>
+                                    <li>
+                                        <div class="why-choose-one__icon">
+                                            <span class="icon-time"></span>
+                                        </div>
+                                        <h4 class="why-choose-one__title">Reduzir Estresse Legal</h4>
+                                        <p class="why-choose-one__text-2">Deixe um profissional lidar com a complexidade jurídica.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="why-choose-one__progress">
+                                <div class="why-choose-one__progress-single">
+                                    <h4 class="why-choose-one__progress-title">Trabalho de Qualidade</h4>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="100%">
+                                            <div class="count-text">100%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="why-choose-one__progress-single">
+                                    <h4 class="why-choose-one__progress-title">Capacitação de Nossos Especialistas</h4>
+                                    <div class="bar marb-0">
+                                        <div class="bar-inner count-bar" data-percent="100%">
+                                            <div class="count-text">100%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Why Choose One End-->
+
+        <!--How We Work Start-->
+        <section class="how-we-work">
+            <div class="how-we-work-shape wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms"
+                style="background-image: url(assets/images/shapes/how-we-work-shape.png);"></div>
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline">Nossa Forma de Atuação</span>
+                    <h2 class="section-title__title">Como Trabalhamos</h2>
+                </div>
+                <ul class="list-unstyled how-we-work__list">
+                    <li class="how-we-work__single">
+                        <div class="how-we-work__single-box">
+                            <div class="how-we-work__icon">
+                                <span class="icon-laundry-1"></span>
+                                <div class="how-we-work__count"></div>
+                            </div>
+                            <h4 class="how-we-work__title">Análise Detalhada</h4>
+                            <p class="how-we-work__text">Realizamos análise minuciosa do seu caso, entendendo nuances para estratégias eficazes no processo de Usucapião. </p>
+                        </div>
+                    </li>
+                    <li class="how-we-work__single">
+                        <div class="how-we-work__single-box">
+                            <div class="how-we-work__icon">
+                                <span class="icon-washing-machine"></span>
+                                <div class="how-we-work__count"></div>
+                            </div>
+                            <h4 class="how-we-work__title">Estratégias Personalizadas</h4>
+                            <p class="how-we-work__text">Desenvolvemos estratégias jurídicas específicas para seu caso, assegurando conformidade e eficácia em todas as etapas do processo.</p>
+                        </div>
+                    </li>
+                    <li class="how-we-work__single">
+                        <div class="how-we-work__single-box">
+                            <div class="how-we-work__icon">
+                                <span class="icon-laundry"></span>
+                                <div class="how-we-work__count"></div>
+                            </div>
+                            <h4 class="how-we-work__title">Acompanhamento e Representação</h4>
+                            <p class="how-we-work__text">Oferecemos atualizações regulares e representação judicial, assegurando comunicação transparente e defesa assertiva de seus direitos.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="how-we-work__bottom">
+                    <a href="#fale-conosco" class="thm-btn how-we-work__btn">Entre em Contato Conosco <span
+                            class="icon-right-arrow"></span></a>
+                </div>
+            </div>
+        </section>
+        <!--How We Work End-->
+
+
+        <!--Testimonial One Start-->
+        <section class="testimonial-one">
+            <div class="container">
+                <div class="testimonial-one__inner">
+                    <div class="testimonials-one__main-content">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="swiper-container" id="testimonials-one__carousel__image">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-one__conent-img">
+                                                <img src="assets/images/testimonial/testimonial-one-conent-img.jpg"
+                                                    alt="">
+                                            </div>
+                                        </div><!-- /.swiper-slide -->
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-one__conent-img">
+                                                <img src="assets/images/testimonial/testimonial-one-conent-img-2.jpg"
+                                                    alt="">
+                                            </div>
+                                        </div><!-- /.swiper-slide -->
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-one__conent-img">
+                                                <img src="assets/images/testimonial/testimonial-one-conent-img-3.jpg"
+                                                    alt="">
+                                            </div>
+                                        </div><!-- /.swiper-slide -->
+                                    </div><!-- /.swiper-wrapper -->
+                                </div>
+
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="testimonial-one__conent-box">
+                                    <div class="section-title text-left">
+                                        <span class="section-title__tagline">Testemunhos</span>
+                                        <h2 class="section-title__title">O Que Nossos Clientes Dizem</h2>
+                                    </div>
+                                    <div class="swiper-container" id="testimonials-one__carousel">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <p class="testimonial-one__text">Fui muito bem atendido, o processo está em andamento mas tenho certeza que os especialistas encaminharão da melhor forma possível. Até o momento Satisfeito</p>
+                                                <div class="testimonial-one__client-details">
+                                                    <h4 class="testimonial-one__client-name">Cliente 1 <span> Empresário</span></h4>
+                                                    <div class="testimonial-one__client-quote">
+                                                        <span class="icon-quote"></span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- /.swiper-slide -->
+                                            <div class="swiper-slide">
+                                                <p class="testimonial-one__text">Ótimo Trabalho, fui atendida com excelência e o processo foi ganho. Muito obrigado</p>
+                                                <div class="testimonial-one__client-details">
+                                                    <h4 class="testimonial-one__client-name">Cliente 2 <span> Administrador</span></h4>
+                                                    <div class="testimonial-one__client-quote">
+                                                        <span class="icon-quote"></span>
+                                                    </div>
+                                                </div>
+                                            </div><!-- /.swiper-slide -->
+                                            
+                                        </div><!-- /.swiper-wrapper -->
+                                    </div>
+                                </div>
+                            </div><!-- /.row -->
+                            <div class="swiper-container" style="display:none;">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6">
+                                                <div class="testimonial-one__conent-img">
+                                                    <img src="assets/images/testimonial/testimonial-one-conent-img.jpg"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6">
+                                                <div class="testimonial-one__conent-box">
+                                                    <div class="section-title text-left">
+                                                        <span class="section-title__tagline">Our Testimonials</span>
+                                                        <h2 class="section-title__title">What They Say?</h2>
+                                                    </div>
+                                                    <p class="testimonial-one__text">This is due to their excellent
+                                                        service,
+                                                        competitive pricing and customer support. It’s throughly
+                                                        refresing
+                                                        to get such a personal touch.</p>
+                                                    <div class="testimonial-one__client-details">
+                                                        <h4 class="testimonial-one__client-name">Kevin Martin <span> -
+                                                                Co
+                                                                Founder</span></h4>
+                                                        <div class="testimonial-one__client-quote">
+                                                            <span class="icon-quote"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.swiper-slide -->
+                                    <div class="swiper-slide">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6">
+                                                <div class="testimonial-one__conent-img">
+                                                    <img src="assets/images/testimonial/testimonial-one-conent-img-2.jpg"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6">
+                                                <div class="testimonial-one__conent-box">
+                                                    <div class="section-title text-left">
+                                                        <span class="section-title__tagline">Our Testimonials</span>
+                                                        <h2 class="section-title__title">What They Say?</h2>
+                                                    </div>
+                                                    <p class="testimonial-one__text">This is due to their excellent
+                                                        service,
+                                                        competitive pricing and customer support. It’s throughly
+                                                        refresing
+                                                        to get such a personal touch.</p>
+                                                    <div class="testimonial-one__client-details">
+                                                        <h4 class="testimonial-one__client-name">Kevin Martin <span> -
+                                                                Co
+                                                                Founder</span></h4>
+                                                        <div class="testimonial-one__client-quote">
+                                                            <span class="icon-quote"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.swiper-slide -->
+                                    <div class="swiper-slide">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6">
+                                                <div class="testimonial-one__conent-img">
+                                                    <img src="assets/images/testimonial/testimonial-one-conent-img-3.jpg"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6">
+                                                <div class="testimonial-one__conent-box">
+                                                    <div class="section-title text-left">
+                                                        <span class="section-title__tagline">Our Testimonials</span>
+                                                        <h2 class="section-title__title">What They Say?</h2>
+                                                    </div>
+                                                    <p class="testimonial-one__text">This is due to their excellent
+                                                        service,
+                                                        competitive pricing and customer support. It’s throughly
+                                                        refresing
+                                                        to get such a personal touch.</p>
+                                                    <div class="testimonial-one__client-details">
+                                                        <h4 class="testimonial-one__client-name">Kevin Martin <span> -
+                                                                Co
+                                                                Founder</span></h4>
+                                                        <div class="testimonial-one__client-quote">
+                                                            <span class="icon-quote"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /.swiper-slide -->
+                                </div>
+                            </div>
+
+                            <!-- <div id="testimonials-one__carousel-pagination"></div> -->
+                            <div class="testimonial-one__nav">
+                                <div class="swiper-button-prev" id="testimonial-one__swiper-button-next">
+                                    <i class="fa fa-angle-right angle-left"></i>
+                                </div>
+                                <div class="swiper-button-next" id="testimonial-one__swiper-button-prev">
+                                    <i class="fa fa-angle-right"></i>
+                                </div>
+                            </div>
+                            <!-- /#testimonials-one__carousel-pagination -->
+                        </div>
+                    </div>
+                    <div class="testimonial-one__thumb-box">
+                        <div class="swiper-container" id="testimonials-one__thumb">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testimonial-one__img-holder">
+                                        <img src="assets/images/testimonial/testimonials-1-1.jpg" alt="">
+                                    </div>
+                                </div><!-- /.swiper-slide -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-one__img-holder">
+                                        <img src="assets/images/testimonial/testimonials-1-2.jpg" alt="">
+                                    </div>
+                                </div><!-- /.swiper-slide -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-one__img-holder">
+                                        <img src="assets/images/testimonial/testimonials-1-3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Testimonial One End-->
+
+
+
+        
+
+        <!--CTA One Start-->
+        <section class="cta-one" id="fale-conosco">
+            <div class="cta-one-shape" style="background-image: url(assets/images/shapes/cta-one-shape.png);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="cta-one__inner">
+                            <div class="cta-one__car wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                                <img src="assets/images/resources/cta-one-car.png" alt="">
+                            </div>
+                            <div class="cta-one__content">
+                                <h3 class="cta-one__title">Contato                                </h3>
+                                <p class="cta-one__number"><a href="tel:5511984792689">+55 11 98479-2689</a></p>
+                            </div>
+                            <div class="cta-one__btn-box">
+                                <a href="#fale-conosco" class="thm-btn cta-one__btn">Preencha o Formulário <span
+                                        class="icon-right-arrow"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CTA One End-->
+        <section class="contact-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="contact-page__left">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">Entre em Contato</span>
+                                <h2 class="section-title__title">Preencha o Formulário de E-mail</h2>
+                            </div>
+                            <p class="contact-page__text">Preencha as Informações do Formulário, que entraremos em contato o mais breve possível.</p>
+                            <div class="contact-page__social">
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="contact-page__right">
+                            <form action="assets/inc/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="comment-form__input-box">
+                                            <input type="text" placeholder="Seu Nome" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="comment-form__input-box">
+                                            <input type="email" placeholder="Seu E-mail" name="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="comment-form__input-box">
+                                            <input type="text" placeholder="Número de Telefone" name="phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <div class="comment-form__input-box">
+                                            <input type="text" placeholder="Enviar Mensagem" name="subject">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12">
+                                        <div class="comment-form__input-box text-message-box">
+                                            <textarea name="message" placeholder="Escrever um Comentário"></textarea>
+                                        </div>
+                                        <div class="comment-form__btn-box">
+                                            <button type="submit" class="thm-btn comment-form__btn">Enviar Mensagem<span class="icon-right-arrow"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Site Footer Start-->
+        <footer class="site-footer">
+            <div class="site-footer-shape wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms"
+                style="background-image: url(assets/images/shapes/welcome-one-foam-shape.png);">
+            </div>
+            <div class="site-footer__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="footer-widget__column footer-widget__about">
+                                <div class="footer-widget__logo">
+                                    <a href="{{url('/')}}"><img src="assets/images/resources/logo-2.png" style="width:120px" alt=""></a>
+                                </div>
+                                <div class="footer-widget__about-text-box">
+                                    <p class="footer-widget__about-text">Advogamos para Todo o Brasil</p>
+                                </div>
+                                <div class="site-footer__social">
+                                    
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                            <div class="footer-widget__column footer-widget__links clearfix">
+                                <h3 class="footer-widget__title">Nossos Links</h3>
+                                <ul class="footer-widget__links-list list-unstyled clearfix">
+                                    <li><a href="{{url('/')}}">Página Inicial</a></li>
+                                    <li><a href="{{url('/')}}#sobre-nos">Sobre Nós</a></li>
+                                    <li><a href="{{url('/')}}#nossos-servicos">Nossos Serviços</a></li>
+                                    <li><a href="{{url('/')}}#fale-conosco">Fale Conosco</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                            <div class="footer-widget__column footer-widget__contact clearfix">
+                                <h3 class="footer-widget__title">Contato</h3>
+                                <p class="footer-widget__contact-text">São Paulo - SP
+                                    </p>
+                                <ul class="list-unstyled footer-widget__contact-list">
+                                    <li>
+                                        <div class="icon">
+                                            <span class="icon-email"></span>
+                                        </div>
+                                        <div class="text">
+                                            <a href="mailto:contato@nelsontanuma.com.br">contato@nelsontanuma.com.br</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="icon-telephone"></span>
+                                        </div>
+                                        <div class="text">
+                                            <a href="tel:5511984792689"> +55 11 98479-2689</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="site-footer__bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="site-footer__bottom-inner">
+                                <p class="site-footer__bottom-text">Copyright 2023. Todos os Direitos Reservados, Feito com ♥ por RS WEB.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Site Footer End-->
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="{{url('/')}}" aria-label="logo image"><img src="assets/images/resources/logo-2.png" width="155"
+                        alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:needhelp@packageName__.com">contato@nelsontanuma.com.br</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:666-888-0000">+55 11 98479-2689</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/vegas/vegas.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/timepicker/timePicker.js"></script>
+
+
+
+
+    <!-- template js -->
+    <script src="assets/js/qondri.js"></script>
+</body>
+
+</html>
